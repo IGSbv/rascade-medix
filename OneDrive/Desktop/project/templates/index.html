@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web3 Medical Records</title>
+</head>
+<body>
+    <button id="loginButton">Connect Wallet</button>
+    <form id="patientForm">
+        <input type="text" id="name" placeholder="Name" required><br>
+        <input type="number" id="age" placeholder="Age" required><br>
+        <input type="text" id="symptoms" placeholder="Symptoms" required><br>
+        <input type="text" id="history" placeholder="Medical History" required><br>
+        <button type="submit">Add Patient</button>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.umd.min.js"></script>
+    <script>
+        const loginButton = document.getElementById('loginButton');
+        let userAddress;
+
+        async function connectWallet() {
+            await ethereum.request({ method: 'eth_requestAccounts' });
+            const provider = new ethers.providers.Web3Provider(window.ethereum);
+            const signer = provider.getSigner();
+            userAddress = await signer.getAddress();
+            alert("Connected: " + userAddress);
+        }
+
+        async function addPatient(event) {
+            event.preventDefault();
+            const response = await fetch('http://localhost:5000/add_patient', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    name: document.getElementById('name').value,
+                    age: parseInt(document.getElementById('age').value),
+                    symptoms: document.getElementById('symptoms').value,
+                    medicalHistory: document.getElementById('history').value,
+                    address: userAddress
+                })
+            });
+            const result = await response.json();
+            alert(result.status);
+        }
+
+        document.getElementById('patientForm').addEventListener('submit', addPatient);
+        loginButton.addEventListener('click', connectWallet);
+    </script>
+</body>
+</html>

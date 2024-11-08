@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web3 Login</title>
+</head>
+<body>
+    <button id="loginButton">Login with MetaMask</button>
+    <p id="status"></p>
+
+    <script>
+        const status = document.getElementById('status');
+        const loginButton = document.getElementById('loginButton');
+
+        // Function to connect to MetaMask and sign a message
+        async function loginWithMetaMask() {
+            if (typeof window.ethereum === 'undefined') {
+                status.textContent = 'MetaMask is not installed!';
+                return;
+            }
+
+            try {
+                // Request access to the user's MetaMask wallet
+                await ethereum.request({ method: 'eth_requestAccounts' });
+                const provider = new ethers.providers.Web3Provider(window.ethereum);
+                const signer = provider.getSigner();
+
+                // Get the user's Ethereum address
+                const address = await signer.getAddress();
+                const message = "Sign this message to log in";
+
+                // Request the user to sign a message
+                const signature = await signer.signMessage(message);
+
+                // Send the address, message, and signature to the backend for verification
+                const response = await fetch('http://localhost:5000/verify', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ address, message, signature })
+                });
+
+                const result = await response.json();
+                status.textContent = result.message;
+            } catch (error) {
+                console.error(error);
+                status.textContent = 'Error during login. Check the console for details.';
+            }
+        }
+
+        loginButton.addEventListener('click', loginWithMetaMask);
+    </script>
+
+    <!-- Include ethers.js -->
+    <script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.umd.min.js"></script>
+</body>
+</html>
