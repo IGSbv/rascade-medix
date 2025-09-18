@@ -1,0 +1,1714 @@
+{
+  "emergency_symptoms": [
+    "chest pain",
+    "difficulty breathing",
+    "shortness of breath at rest",
+    "severe bleeding",
+    "uncontrolled bleeding",
+    "seizures",
+    "loss of consciousness",
+    "fainting",
+    "sudden numbness or weakness",
+    "weakness on one side",
+    "slurred speech",
+    "facial droop",
+    "sudden confusion",
+    "disorientation",
+    "severe headache",
+    "sudden severe headache",
+    "head injury",
+    "severe burn",
+    "choking",
+    "high fever with stiff neck",
+    "severe allergic reaction",
+    "swelling of lips or tongue",
+    "thoughts of self-harm",
+    "thoughts of harming others",
+    "severe abdominal pain",
+    "coughing up blood",
+    "vomiting blood"
+  ],
+  "conditions": [
+    {
+      "name": "Common Cold",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "runny nose", "aliases": ["nose is running", "rhinorrhea"] },
+        { "name": "sore throat", "aliases": ["throat hurts", "scratchy throat"] },
+        { "name": "cough", "aliases": ["hacking cough", "persistent cough"] },
+        { "name": "mild fever", "aliases": ["low-grade fever"] },
+        { "name": "fatigue", "aliases": ["tired", "exhausted", "low energy"] },
+        { "name": "sneezing", "aliases": ["sneeze"] },
+        { "name": "nasal congestion", "aliases": ["stuffy nose", "blocked nose"] }
+      ],
+      "specific_symptoms": [],
+      "risk_factors": ["crowded places", "weakened immune system", "seasonal changes"],
+      "specialist": "General Practitioner",
+      "recommendation": "Rest, stay hydrated, and use over-the-counter medications to manage symptoms. Consult a doctor if symptoms persist or worsen.",
+      "severity": "mild"
+    },
+    {
+      "name": "Influenza (Flu)",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "fever", "aliases": ["high temperature", "feverish"] },
+        { "name": "chills", "aliases": ["feeling cold", "shivering"] },
+        { "name": "headache", "aliases": ["head hurts", "head is pounding"] },
+        { "name": "fatigue", "aliases": ["very tired", "extreme exhaustion"] },
+        { "name": "cough", "aliases": ["dry cough"] },
+        { "name": "sore throat", "aliases": ["scratchy throat"] },
+        { "name": "runny nose", "aliases": ["stuffy nose"] }
+      ],
+      "specific_symptoms": [
+        { "name": "body aches", "aliases": ["muscle aches", "sore all over"] },
+        { "name": "sudden onset of symptoms", "aliases": ["came on suddenly", "felt fine then suddenly sick"] }
+      ],
+      "risk_factors": ["unvaccinated", "crowded places", "weakened immune system", "chronic illness"],
+      "specialist": "General Practitioner",
+      "recommendation": "Get plenty of rest and fluids. Antiviral drugs may be prescribed by a doctor. Seek medical attention if you have difficulty breathing.",
+      "severity": "moderate"
+    },
+    {
+      "name": "Pneumonia",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "fever", "aliases": ["high fever"] },
+        { "name": "cough", "aliases": ["cough with phlegm"] },
+        { "name": "fatigue", "aliases": ["feeling weak"] },
+        { "name": "chills", "aliases": ["shivering"] }
+      ],
+      "specific_symptoms": [
+        { "name": "chest pain when breathing", "aliases": ["sharp chest pain", "pain when I breathe deep"] },
+        { "name": "shortness of breath", "aliases": ["can't catch my breath", "difficulty breathing"] },
+        { "name": "rust-colored sputum", "aliases": ["coughing up rusty phlegm"] }
+      ],
+      "risk_factors": ["smoking", "recent cold or flu", "hospitalization", "chronic lung disease", "weakened immune system"],
+      "specialist": "Pulmonologist",
+      "recommendation": "Pneumonia can be serious. It is crucial to see a doctor for diagnosis and likely treatment with antibiotics. Rest and hydration are also important.",
+      "severity": "severe"
+    },
+    {
+      "name": "Asthma",
+      "category": "Respiratory",
+      "common_symptoms": [
+        { "name": "cough", "aliases": ["coughing fits", "coughing at night"] },
+        { "name": "shortness of breath", "aliases": ["trouble breathing"] }
+      ],
+      "specific_symptoms": [
+        { "name": "wheezing", "aliases": ["whistling sound when breathing"] },
+        { "name": "chest tightness", "aliases": ["tight chest"] }
+      ],
+      "risk_factors": ["allergies", "family history of asthma", "respiratory infections", "exposure to smoke", "air pollution"],
+      "specialist": "Pulmonologist",
+      "recommendation": "Use prescribed inhalers as directed. Identify and avoid triggers. Consult a doctor for a long-term management plan.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Migraine",
+      "category": "Neurological",
+      "common_symptoms": [
+        { "name": "headache", "aliases": ["severe headache"] },
+        { "name": "fatigue", "aliases": ["feeling drained"] },
+        { "name": "nausea", "aliases": ["feel sick to my stomach", "feeling queasy"] }
+      ],
+      "specific_symptoms": [
+        { "name": "aura", "aliases": ["seeing flashing lights", "visual disturbances"] },
+        { "name": "sensitivity to light and sound", "aliases": ["lights are too bright", "sounds are too loud", "photophobia", "phonophobia"] },
+        { "name": "throbbing one-sided pain", "aliases": ["pulsating pain on one side of my head"] }
+      ],
+      "risk_factors": ["family history of migraines", "stress", "hormonal changes", "certain foods", "female sex"],
+      "specialist": "Neurologist",
+      "recommendation": "Rest in a dark, quiet room. Use over-the-counter or prescribed pain relievers. Consult a doctor for diagnosis and management.",
+      "severity": "moderate"
+    },
+    {
+      "name": "Gastroenteritis (Stomach Flu)",
+      "category": "Gastrointestinal",
+      "common_symptoms": [
+        { "name": "nausea", "aliases": ["upset stomach"] },
+        { "name": "vomiting", "aliases": ["throwing up"] },
+        { "name": "diarrhea", "aliases": ["loose stools"] },
+        { "name": "abdominal pain", "aliases": ["stomach ache"] },
+        { "name": "low-grade fever", "aliases": ["mild fever"] }
+      ],
+      "specific_symptoms": [
+        { "name": "stomach cramps", "aliases": ["cramping"] }
+      ],
+      "risk_factors": ["contaminated food or water", "contact with infected person", "poor hygiene"],
+      "specialist": "Gastroenterologist",
+      "recommendation": "Stay hydrated with clear fluids (BRAT diet). Rest is important. See a doctor if you can't keep liquids down or if symptoms are severe.",
+      "severity": "mild"
+    },
+    {
+      "name": "COVID-19",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "fever", "aliases": ["feverish"] },
+        { "name": "cough", "aliases": ["dry cough"] },
+        { "name": "fatigue", "aliases": ["extreme tiredness"] },
+        { "name": "sore throat", "aliases": ["scratchy throat"] },
+        { "name": "headache", "aliases": ["head pain"] },
+        { "name": "body aches", "aliases": ["muscle aches"] }
+      ],
+      "specific_symptoms": [
+        { "name": "loss of taste or smell", "aliases": ["can't taste food", "can't smell anything"] },
+        { "name": "shortness of breath", "aliases": ["difficulty breathing"] }
+      ],
+      "risk_factors": ["close contact with infected person", "crowded indoor spaces", "unvaccinated", "chronic medical conditions"],
+      "specialist": "General Practitioner",
+      "recommendation": "Isolate to prevent spread. Monitor symptoms. Rest and stay hydrated. Seek immediate medical care for breathing difficulties.",
+      "severity": "variable"
+    },
+    {
+      "name": "Diabetes Type 2",
+      "category": "Endocrine",
+      "common_symptoms": [
+        { "name": "fatigue", "aliases": ["feeling tired often"] },
+        { "name": "frequent urination", "aliases": ["peeing a lot"] },
+        { "name": "increased thirst", "aliases": ["always thirsty"] },
+        { "name": "increased hunger", "aliases": ["always hungry"] }
+      ],
+      "specific_symptoms": [
+        { "name": "slow-healing sores", "aliases": ["cuts don't heal fast"] },
+        { "name": "numbness in extremities", "aliases": ["tingling in hands or feet"] },
+        { "name": "blurred vision", "aliases": ["vision is blurry"] }
+      ],
+      "risk_factors": ["obesity", "family history of diabetes", "inactive lifestyle", "age over 45", "polycystic ovary syndrome"],
+      "specialist": "Endocrinologist",
+      "recommendation": "Consult a doctor for diagnosis and management, which may include lifestyle changes, diet, and medication.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Hypertension (High Blood Pressure)",
+      "category": "Cardiovascular",
+      "common_symptoms": [
+        { "name": "headache", "aliases": ["headaches"] },
+        { "name": "fatigue", "aliases": ["tiredness"] },
+        { "name": "dizziness", "aliases": ["feeling dizzy"] },
+        { "name": "shortness of breath", "aliases": ["out of breath"] }
+      ],
+      "specific_symptoms": [
+        { "name": "blurred vision", "aliases": ["vision problems"] },
+        { "name": "nosebleeds", "aliases": ["nosebleed"] }
+      ],
+      "risk_factors": ["family history", "obesity", "high-salt diet", "smoking", "stress", "lack of physical activity"],
+      "specialist": "Cardiologist",
+      "recommendation": "Often has no symptoms. Regular check-ups are key. Management involves lifestyle changes and prescribed medication. Consult a doctor.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Myocardial Infarction (Heart Attack)",
+      "category": "Cardiovascular",
+      "common_symptoms": [
+        { "name": "chest pain", "aliases": ["chest pressure", "chest tightness"] },
+        { "name": "shortness of breath", "aliases": ["can't breathe"] },
+        { "name": "fatigue", "aliases": ["sudden exhaustion"] },
+        { "name": "nausea", "aliases": ["feeling sick"] },
+        { "name": "dizziness", "aliases": ["lightheaded"] }
+      ],
+      "specific_symptoms": [
+        { "name": "pain radiating to left arm or jaw", "aliases": ["arm pain", "jaw pain"] },
+        { "name": "cold sweats", "aliases": ["sweating and cold"] },
+        { "name": "feeling of impending doom", "aliases": ["feel like I'm going to die"] }
+      ],
+      "risk_factors": ["smoking", "high blood pressure", "high cholesterol", "diabetes", "obesity", "family history"],
+      "specialist": "Cardiologist",
+      "recommendation": "This is a medical emergency. Call emergency services immediately.",
+      "severity": "critical"
+    },
+    {
+      "name": "Stroke",
+      "category": "Neurological",
+      "common_symptoms": [
+        { "name": "headache", "aliases": ["sudden severe headache"] },
+        { "name": "confusion", "aliases": ["disoriented"] },
+        { "name": "dizziness", "aliases": ["vertigo"] }
+      ],
+      "specific_symptoms": [
+        { "name": "sudden weakness on one side", "aliases": ["one side of body is weak", "arm or leg weakness"] },
+        { "name": "slurred speech", "aliases": ["trouble speaking", "garbled speech"] },
+        { "name": "facial droop", "aliases": ["face is drooping", "crooked smile"] }
+      ],
+      "risk_factors": ["high blood pressure", "smoking", "atrial fibrillation", "diabetes", "high cholesterol"],
+      "specialist": "Neurologist",
+      "recommendation": "This is a medical emergency. Call emergency services immediately. Time is critical.",
+      "severity": "critical"
+    },
+    {
+      "name": "Anemia",
+      "category": "Hematologic",
+      "common_symptoms": [
+        { "name": "fatigue", "aliases": ["always tired"] },
+        { "name": "weakness", "aliases": ["feeling weak"] },
+        { "name": "dizziness", "aliases": ["lightheaded"] },
+        { "name": "headache", "aliases": ["headaches"] }
+      ],
+      "specific_symptoms": [
+        { "name": "pale skin", "aliases": ["skin is pale"] },
+        { "name": "shortness of breath", "aliases": ["easily out of breath"] },
+        { "name": "cold hands and feet", "aliases": ["hands are always cold"] }
+      ],
+      "risk_factors": ["iron deficiency", "vitamin deficiency", "chronic disease", "blood loss", "pregnancy"],
+      "specialist": "Hematologist",
+      "recommendation": "Consult a doctor for diagnosis to determine the cause and appropriate treatment, often involving iron supplements.",
+      "severity": "moderate"
+    },
+    {
+      "name": "Urinary Tract Infection (UTI)",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "frequent urination", "aliases": ["need to pee often"] },
+        { "name": "painful urination", "aliases": ["hurts to pee"] },
+        { "name": "abdominal pain", "aliases": ["lower stomach pain"] }
+      ],
+      "specific_symptoms": [
+        { "name": "burning sensation during urination", "aliases": ["burning when I pee"] },
+        { "name": "cloudy or strong-smelling urine", "aliases": ["smelly urine"] },
+        { "name": "pelvic pain", "aliases": ["pain in lower belly"] }
+      ],
+      "risk_factors": ["female anatomy", "sexual activity", "catheter use", "menopause"],
+      "specialist": "Urologist",
+      "recommendation": "See a doctor for diagnosis and likely antibiotic treatment. Drink plenty of water.",
+      "severity": "mild"
+    },
+    {
+      "name": "Kidney Stones",
+      "category": "Urologic",
+      "common_symptoms": [
+        { "name": "abdominal pain", "aliases": ["stomach pain"] },
+        { "name": "nausea", "aliases": ["feel like vomiting"] },
+        { "name": "vomiting", "aliases": ["puking"] },
+        { "name": "fever", "aliases": ["temperature"] }
+      ],
+      "specific_symptoms": [
+        { "name": "severe pain in side and back", "aliases": ["sharp back pain", "flank pain"] },
+        { "name": "pain that comes in waves", "aliases": ["pain comes and goes"] },
+        { "name": "blood in urine", "aliases": ["pink urine", "hematuria"] }
+      ],
+      "risk_factors": ["dehydration", "certain diets", "obesity", "family history", "digestive diseases"],
+      "specialist": "Urologist",
+      "recommendation": "Drink plenty of water to help pass small stones. A doctor may prescribe pain medication or recommend a procedure for larger stones.",
+      "severity": "severe"
+    },
+    {
+      "name": "Allergic Rhinitis (Hay Fever)",
+      "category": "Allergy",
+      "common_symptoms": [
+        { "name": "sneezing", "aliases": ["sneezing a lot"] },
+        { "name": "runny nose", "aliases": ["drippy nose"] },
+        { "name": "nasal congestion", "aliases": ["stuffy"] },
+        { "name": "itchy skin", "aliases": ["itchy"] }
+      ],
+      "specific_symptoms": [
+        { "name": "itchy eyes, nose, or throat", "aliases": ["eyes are itchy"] },
+        { "name": "watery eyes", "aliases": ["eyes watering"] }
+      ],
+      "risk_factors": ["pollen", "dust mites", "pet dander", "family history of allergies"],
+      "specialist": "Allergist",
+      "recommendation": "Avoid allergens. Use over-the-counter antihistamines or nasal sprays. Consult a doctor for persistent symptoms.",
+      "severity": "mild"
+    },
+    {
+      "name": "Eczema (Atopic Dermatitis)",
+      "category": "Dermatologic",
+      "common_symptoms": [
+        { "name": "dry skin", "aliases": ["skin is dry"] },
+        { "name": "itchy skin", "aliases": ["skin itches", "itching", "itchy"] },
+        { "name": "rash", "aliases": ["skin rash"] }
+      ],
+      "specific_symptoms": [
+        { "name": "red to brownish-gray patches", "aliases": ["skin patches"] },
+        { "name": "small, raised bumps", "aliases": ["little bumps on skin"] },
+        { "name": "thickened, cracked, scaly skin", "aliases": ["scaly skin"] }
+      ],
+      "risk_factors": ["family history of eczema", "allergies", "asthma", "hay fever"],
+      "specialist": "Dermatologist",
+      "recommendation": "Moisturize skin regularly. Avoid triggers and harsh soaps. A doctor can prescribe medicated creams.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Psoriasis",
+      "category": "Dermatologic",
+      "common_symptoms": [
+        { "name": "itchy skin", "aliases": ["itching", "itchy"] },
+        { "name": "joint pain", "aliases": ["sore joints"] },
+        { "name": "rash", "aliases": ["skin rash"] }
+      ],
+      "specific_symptoms": [
+        { "name": "red patches of skin covered with thick, silvery scales", "aliases": ["silvery scales on skin"] },
+        { "name": "pitted or thickened nails", "aliases": ["dents in nails"] }
+      ],
+      "risk_factors": ["family history", "stress", "smoking", "infection", "skin injury"],
+      "specialist": "Dermatologist",
+      "recommendation": "Consult a dermatologist for a treatment plan, which may include topical treatments, light therapy, or medications.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Depression",
+      "category": "Mental Health",
+      "common_symptoms": [
+        { "name": "fatigue", "aliases": ["no energy"] },
+        { "name": "changes in appetite", "aliases": ["eating more or less"] },
+        { "name": "sleep disturbances", "aliases": ["can't sleep", "sleeping too much"] },
+        { "name": "irritability", "aliases": ["easily annoyed"] }
+      ],
+      "specific_symptoms": [
+        { "name": "persistent sad or empty mood", "aliases": ["feeling down all the time"] },
+        { "name": "loss of interest or pleasure", "aliases": ["don't enjoy things anymore"] },
+        { "name": "feelings of worthlessness", "aliases": ["feel worthless"] }
+      ],
+      "risk_factors": ["family history", "traumatic events", "chronic stress", "major life changes", "chronic illness"],
+      "specialist": "Psychiatrist",
+      "recommendation": "It is important to seek help from a mental health professional. Therapy and medication can be very effective. Talk to someone you trust.",
+      "severity": "serious"
+    },
+    {
+      "name": "Anxiety Disorder",
+      "category": "Mental Health",
+      "common_symptoms": [
+        { "name": "fatigue", "aliases": ["mentally tired"] },
+        { "name": "sleep disturbances", "aliases": ["trouble sleeping"] },
+        { "name": "difficulty concentrating", "aliases": ["can't focus"] },
+        { "name": "irritability", "aliases": ["snapping at people"] }
+      ],
+      "specific_symptoms": [
+        { "name": "excessive worry or fear", "aliases": ["worrying all the time"] },
+        { "name": "restlessness", "aliases": ["can't sit still"] },
+        { "name": "panic attacks", "aliases": ["sudden fear"] }
+      ],
+      "risk_factors": ["family history", "stressful life events", "certain personality types", "thyroid problems"],
+      "specialist": "Psychiatrist",
+      "recommendation": "Therapy, such as cognitive-behavioral therapy (CBT), and medication can help. Consult a mental health professional.",
+      "severity": "serious"
+    },
+    {
+      "name": "Hypothyroidism",
+      "category": "Endocrine",
+      "common_symptoms": [
+        { "name": "fatigue", "aliases": ["sluggish"] },
+        { "name": "weight gain", "aliases": ["gaining weight easily"] },
+        { "name": "dry skin", "aliases": ["flaky skin"] }
+      ],
+      "specific_symptoms": [
+        { "name": "sensitivity to cold", "aliases": ["always cold"] },
+        { "name": "constipation", "aliases": ["can't go to the bathroom"] },
+        { "name": "thinning hair", "aliases": ["hair falling out"] }
+      ],
+      "risk_factors": ["autoimmune disease", "family history", "iodine deficiency", "female sex", "age over 60"],
+      "specialist": "Endocrinologist",
+      "recommendation": "Consult a doctor for a blood test and diagnosis. Treatment typically involves daily hormone medication.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Hyperthyroidism",
+      "category": "Endocrine",
+      "common_symptoms": [
+        { "name": "fatigue", "aliases": ["wired but tired"] },
+        { "name": "sleep disturbances", "aliases": ["insomnia"] },
+        { "name": "anxiety", "aliases": ["nervousness"] }
+      ],
+      "specific_symptoms": [
+        { "name": "unexplained weight loss", "aliases": ["losing weight without trying"] },
+        { "name": "rapid or irregular heartbeat", "aliases": ["heart palpitations", "fast heart rate"] },
+        { "name": "sensitivity to heat", "aliases": ["always hot"] }
+      ],
+      "risk_factors": ["Graves' disease", "family history", "thyroid nodules", "female sex"],
+      "specialist": "Endocrinologist",
+      "recommendation": "Consult a doctor for diagnosis and a treatment plan, which may include medication or other therapies.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Tuberculosis",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "fever", "aliases": ["low-grade fever"] },
+        { "name": "fatigue", "aliases": ["weak"] },
+        { "name": "cough", "aliases": ["persistent cough for weeks"] },
+        { "name": "chills", "aliases": ["shivering"] }
+      ],
+      "specific_symptoms": [
+        { "name": "night sweats", "aliases": ["sweating at night"] },
+        { "name": "blood in sputum", "aliases": ["coughing up blood"] },
+        { "name": "unexplained weight loss", "aliases": ["losing weight"] }
+      ],
+      "risk_factors": ["weakened immune system", "close contact with infected person", "living in endemic areas", "homelessness"],
+      "specialist": "Infectious Disease Specialist",
+      "recommendation": "Tuberculosis is a serious infectious disease. Immediate medical consultation for diagnosis and a long course of antibiotics is required.",
+      "severity": "serious"
+    },
+    {
+      "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "category": "Respiratory",
+      "common_symptoms": [
+        { "name": "chronic cough", "aliases": ["smoker's cough"] },
+        { "name": "shortness of breath", "aliases": ["breathlessness"] },
+        { "name": "fatigue", "aliases": ["tired"] }
+      ],
+      "specific_symptoms": [
+        { "name": "barrel chest", "aliases": ["expanded chest"] },
+        { "name": "chronic sputum production", "aliases": ["coughing up phlegm daily"] },
+        { "name": "wheezing", "aliases": ["whistling breath"] }
+      ],
+      "risk_factors": ["smoking", "long-term exposure to lung irritants", "genetics", "age over 40"],
+      "specialist": "Pulmonologist",
+      "recommendation": "Quitting smoking is essential. A doctor can prescribe inhalers and other treatments to manage symptoms. Consult a pulmonologist.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Tension Headache",
+      "category": "Neurological",
+      "common_symptoms": [
+        { "name": "headache", "aliases": ["dull head pain"] },
+        { "name": "fatigue", "aliases": ["tired"] }
+      ],
+      "specific_symptoms": [
+        { "name": "band-like pressure around the head", "aliases": ["head feels like it's in a vise"] },
+        { "name": "neck pain", "aliases": ["sore neck"] }
+      ],
+      "risk_factors": ["stress", "poor posture", "eyestrain", "fatigue"],
+      "specialist": "Neurologist",
+      "recommendation": "Over-the-counter pain relievers, stress management, and rest can help. Consult a doctor for chronic tension headaches.",
+      "severity": "mild"
+    },
+    {
+      "name": "Diabetes Type 1",
+      "category": "Endocrine",
+      "common_symptoms": [
+        { "name": "fatigue", "aliases": ["tired"] },
+        { "name": "frequent urination", "aliases": ["urinating a lot"] },
+        { "name": "increased thirst", "aliases": ["very thirsty"] }
+      ],
+      "specific_symptoms": [
+        { "name": "unexplained weight loss", "aliases": ["losing weight fast"] },
+        { "name": "sweet-smelling breath", "aliases": ["fruity breath"] },
+        { "name": "extreme hunger", "aliases": ["always hungry"] }
+      ],
+      "risk_factors": ["family history", "genetics", "autoimmune factors", "age (children and young adults)"],
+      "specialist": "Endocrinologist",
+      "recommendation": "Requires lifelong insulin therapy and blood sugar monitoring. Consult an endocrinologist for comprehensive management.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Appendicitis",
+      "category": "Gastrointestinal",
+      "common_symptoms": [
+        { "name": "abdominal pain", "aliases": ["belly pain"] },
+        { "name": "nausea", "aliases": ["feeling sick"] },
+        { "name": "vomiting", "aliases": ["throwing up"] },
+        { "name": "fever", "aliases": ["temperature"] },
+        { "name": "loss of appetite", "aliases": ["not hungry"] }
+      ],
+      "specific_symptoms": [
+        { "name": "pain starting near the navel and moving to the lower right abdomen", "aliases": ["pain in lower right stomach"] },
+        { "name": "rebound tenderness", "aliases": ["hurts more when I let go"] }
+      ],
+      "risk_factors": ["age (most common in teens and 20s)", "male sex", "family history"],
+      "specialist": "General Surgeon",
+      "recommendation": "This is a medical emergency that usually requires surgery. Seek immediate medical attention.",
+      "severity": "critical"
+    },
+    {
+      "name": "Irritable Bowel Syndrome (IBS)",
+      "category": "Gastrointestinal",
+      "common_symptoms": [
+        { "name": "abdominal pain", "aliases": ["stomach pain"] },
+        { "name": "bloating", "aliases": ["feeling bloated"] },
+        { "name": "gas", "aliases": ["gassy"] },
+        { "name": "diarrhea", "aliases": ["loose stools"] },
+        { "name": "constipation", "aliases": ["hard stools"] }
+      ],
+      "specific_symptoms": [
+        { "name": "cramping", "aliases": ["stomach cramps"] },
+        { "name": "changes in bowel habits (diarrhea or constipation)", "aliases": ["diarrhea then constipation"] }
+      ],
+      "risk_factors": ["stress", "family history", "certain foods", "female sex", "age under 50"],
+      "specialist": "Gastroenterologist",
+      "recommendation": "Management involves dietary changes, stress management, and sometimes medication. Consult a gastroenterologist.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Crohn's Disease",
+      "category": "Gastrointestinal",
+      "common_symptoms": [
+        { "name": "diarrhea", "aliases": ["persistent diarrhea"] },
+        { "name": "abdominal pain", "aliases": ["stomach pain"] },
+        { "name": "fatigue", "aliases": ["tired"] },
+        { "name": "weight loss", "aliases": ["losing weight"] }
+      ],
+      "specific_symptoms": [
+        { "name": "blood in stool", "aliases": ["bloody stool"] },
+        { "name": "mouth sores", "aliases": ["canker sores"] },
+        { "name": "reduced appetite", "aliases": ["not hungry"] }
+      ],
+      "risk_factors": ["smoking", "family history", "autoimmune factors", "age (young adulthood)"],
+      "specialist": "Gastroenterologist",
+      "recommendation": "This is a type of IBD requiring long-term management by a specialist. Treatment aims to reduce inflammation. Consult a gastroenterologist.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Rheumatoid Arthritis",
+      "category": "Autoimmune",
+      "common_symptoms": [
+        { "name": "joint pain", "aliases": ["pain in joints"] },
+        { "name": "fatigue", "aliases": ["tired"] },
+        { "name": "stiffness", "aliases": ["joint stiffness"] }
+      ],
+      "specific_symptoms": [
+        { "name": "swollen, tender joints", "aliases": ["swollen joints"] },
+        { "name": "joint stiffness that is worse in the mornings", "aliases": ["stiff in the morning"] },
+        { "name": "symmetrical joint involvement", "aliases": ["pain in both knees", "pain in both wrists", "pain on both sides"] }
+      ],
+      "risk_factors": ["smoking", "family history", "female sex", "age (middle age)"],
+      "specialist": "Rheumatologist",
+      "recommendation": "Early diagnosis and treatment are key to prevent joint damage. Consult a rheumatologist for management.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Osteoarthritis",
+      "category": "Musculoskeletal",
+      "common_symptoms": [
+        { "name": "joint pain", "aliases": ["sore joints"] },
+        { "name": "stiffness", "aliases": ["stiff joints"] }
+      ],
+      "specific_symptoms": [
+        { "name": "pain that worsens with activity", "aliases": ["hurts to walk"] },
+        { "name": "grating sensation in joints", "aliases": ["joint grinding"] },
+        { "name": "bone spurs", "aliases": ["lumps on joint"] }
+      ],
+      "risk_factors": ["age", "obesity", "joint injury", "genetics", "female sex"],
+      "specialist": "Orthopedist",
+      "recommendation": "Management includes exercise, weight management, physical therapy, and pain relievers. Consult a doctor.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Gout",
+      "category": "Musculoskeletal",
+      "common_symptoms": [
+        { "name": "joint pain", "aliases": ["intense joint pain"] },
+        { "name": "swelling", "aliases": ["swollen joint"] },
+        { "name": "redness", "aliases": ["red joint"] }
+      ],
+      "specific_symptoms": [
+        { "name": "sudden, severe attacks of pain, typically in the big toe", "aliases": ["big toe pain"] },
+        { "name": "lingering discomfort", "aliases": ["joint hurts for days"] }
+      ],
+      "risk_factors": ["high-purine diet", "alcohol consumption", "obesity", "high blood pressure", "male sex"],
+      "specialist": "Rheumatologist",
+      "recommendation": "Dietary changes and medication can help manage gout. Consult a doctor for diagnosis and treatment.",
+      "severity": "moderate"
+    },
+    {
+      "name": "Lupus",
+      "category": "Autoimmune",
+      "common_symptoms": [
+        { "name": "fatigue", "aliases": ["extreme fatigue"] },
+        { "name": "fever", "aliases": ["unexplained fever"] },
+        { "name": "joint pain", "aliases": ["sore joints"] },
+        { "name": "rash", "aliases": ["skin rash"] }
+      ],
+      "specific_symptoms": [
+        { "name": "butterfly-shaped rash on the face", "aliases": ["rash on cheeks and nose"] },
+        { "name": "photosensitivity", "aliases": ["skin rash from sun"] },
+        { "name": "chest pain", "aliases": ["chest hurts"] }
+      ],
+      "risk_factors": ["female sex", "family history", "sunlight exposure", "age (15-45)"],
+      "specialist": "Rheumatologist",
+      "recommendation": "Lupus is a complex autoimmune disease requiring specialist care. Consult a rheumatologist for diagnosis and management.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Multiple Sclerosis (MS)",
+      "category": "Neurological",
+      "common_symptoms": [
+        { "name": "fatigue", "aliases": ["tired"] },
+        { "name": "dizziness", "aliases": ["vertigo"] },
+        { "name": "weakness", "aliases": ["muscle weakness"] }
+      ],
+      "specific_symptoms": [
+        { "name": "numbness or tingling in limbs", "aliases": ["pins and needles"] },
+        { "name": "vision problems", "aliases": ["blurry vision", "double vision"] },
+        { "name": "balance issues", "aliases": ["unsteady on feet"] }
+      ],
+      "risk_factors": ["genetics", "certain infections", "low vitamin D", "age (20-40)", "female sex"],
+      "specialist": "Neurologist",
+      "recommendation": "MS is a chronic condition of the central nervous system. Consult a neurologist for diagnosis and a comprehensive management plan.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Parkinson's Disease",
+      "category": "Neurological",
+      "common_symptoms": [
+        { "name": "fatigue", "aliases": ["tired"] },
+        { "name": "stiffness", "aliases": ["muscle stiffness"] }
+      ],
+      "specific_symptoms": [
+        { "name": "tremor at rest", "aliases": ["shaking hands"] },
+        { "name": "slowed movement (bradykinesia)", "aliases": ["slow walking", "shuffling gait"] },
+        { "name": "impaired posture and balance", "aliases": ["stooped posture"] }
+      ],
+      "risk_factors": ["age", "genetics", "exposure to certain toxins", "male sex"],
+      "specialist": "Neurologist",
+      "recommendation": "A progressive neurological disorder. Consult a neurologist for diagnosis and management with medication and therapy.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Alzheimer's Disease",
+      "category": "Neurological",
+      "common_symptoms": [
+        { "name": "memory loss", "aliases": ["forgetfulness"] },
+        { "name": "confusion", "aliases": ["disoriented"] }
+      ],
+      "specific_symptoms": [
+        { "name": "difficulty with problem-solving", "aliases": ["can't plan things"] },
+        { "name": "misplacing things", "aliases": ["losing items"] },
+        { "name": "withdrawal from social activities", "aliases": ["avoiding friends"] }
+      ],
+      "risk_factors": ["age", "family history", "genetics (APOE-e4 gene)", "down syndrome"],
+      "specialist": "Neurologist",
+      "recommendation": "A progressive brain disorder. Early diagnosis is important. Consult a neurologist for management and support resources.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Bipolar Disorder",
+      "category": "Mental Health",
+      "common_symptoms": [
+        { "name": "mood swings", "aliases": ["extreme mood changes"] },
+        { "name": "changes in energy levels", "aliases": ["high and low energy"] }
+      ],
+      "specific_symptoms": [
+        { "name": "manic episodes (high energy)", "aliases": ["feeling euphoric", "risky behavior"] },
+        { "name": "depressive episodes (low energy)", "aliases": ["feeling very sad"] }
+      ],
+      "risk_factors": ["family history", "high stress", "drug or alcohol abuse", "traumatic events"],
+      "specialist": "Psychiatrist",
+      "recommendation": "A mental health condition requiring long-term management, usually with therapy and medication. Consult a psychiatrist.",
+      "severity": "serious"
+    },
+    {
+      "name": "Schizophrenia",
+      "category": "Mental Health",
+      "common_symptoms": [
+        { "name": "social withdrawal", "aliases": ["isolating"] },
+        { "name": "disorganized speech", "aliases": ["jumbled speech"] }
+      ],
+      "specific_symptoms": [
+        { "name": "hallucinations", "aliases": ["seeing things", "hearing voices"] },
+        { "name": "delusions", "aliases": ["false beliefs"] },
+        { "name": "impaired functioning", "aliases": ["can't work or study"] }
+      ],
+      "risk_factors": ["family history", "complications during birth", "mind-altering drug use during teen years"],
+      "specialist": "Psychiatrist",
+      "recommendation": "A serious mental disorder requiring lifelong treatment with medication and psychosocial therapy. Consult a psychiatrist.",
+      "severity": "serious"
+    },
+    {
+      "name": "Endometriosis",
+      "category": "Gynecologic",
+      "common_symptoms": [
+        { "name": "pelvic pain", "aliases": ["lower belly pain"] },
+        { "name": "painful periods", "aliases": ["bad period cramps"] }
+      ],
+      "specific_symptoms": [
+        { "name": "pain during intercourse", "aliases": ["sex is painful"] },
+        { "name": "excessive bleeding", "aliases": ["heavy periods"] },
+        { "name": "infertility", "aliases": ["trouble getting pregnant"] }
+      ],
+      "risk_factors": ["family history", "never giving birth", "early menstruation", "late menopause"],
+      "specialist": "Gynecologist",
+      "recommendation": "Consult a gynecologist for diagnosis and a management plan, which may include pain medication or hormonal therapy.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Polycystic Ovary Syndrome (PCOS)",
+      "category": "Endocrine",
+      "common_symptoms": [
+        { "name": "irregular periods", "aliases": ["missed periods"] },
+        { "name": "weight gain", "aliases": ["hard to lose weight"] }
+      ],
+      "specific_symptoms": [
+        { "name": "excess androgen (male hormone) levels", "aliases": ["excess hair growth", "acne"] },
+        { "name": "cysts on the ovaries", "aliases": ["ovarian cysts"] }
+      ],
+      "risk_factors": ["obesity", "family history", "insulin resistance"],
+      "specialist": "Endocrinologist",
+      "recommendation": "Management focuses on lifestyle changes and medication. Consult a gynecologist or endocrinologist.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Celiac Disease",
+      "category": "Autoimmune",
+      "common_symptoms": [
+        { "name": "diarrhea", "aliases": ["loose stool"] },
+        { "name": "bloating", "aliases": ["gassy"] },
+        { "name": "gas", "aliases": ["flatulence"] },
+        { "name": "fatigue", "aliases": ["tired"] }
+      ],
+      "specific_symptoms": [
+        { "name": "abdominal pain", "aliases": ["stomach pain after eating gluten"] },
+        { "name": "unexplained weight loss", "aliases": ["losing weight"] },
+        { "name": "dermatitis herpetiformis (itchy rash)", "aliases": ["itchy skin rash"] }
+      ],
+      "risk_factors": ["family history", "type 1 diabetes", "autoimmune thyroid disease"],
+      "specialist": "Gastroenterologist",
+      "recommendation": "An immune reaction to eating gluten. A strict gluten-free diet is the only treatment. Consult a gastroenterologist for diagnosis.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Gallstones",
+      "category": "Gastrointestinal",
+      "common_symptoms": [
+        { "name": "nausea", "aliases": ["sick to stomach"] },
+        { "name": "vomiting", "aliases": ["throwing up"] }
+      ],
+      "specific_symptoms": [
+        { "name": "sudden and rapidly intensifying pain in the upper right abdomen", "aliases": ["upper right stomach pain"] },
+        { "name": "back pain between shoulder blades", "aliases": ["pain between shoulders"] },
+        { "name": "jaundice", "aliases": ["yellow skin", "yellow eyes"] }
+      ],
+      "risk_factors": ["female sex", "age over 40", "obesity", "rapid weight loss", "pregnancy"],
+      "specialist": "General Surgeon",
+      "recommendation": "May require surgery to remove the gallbladder. Consult a doctor if you experience sudden, severe abdominal pain.",
+      "severity": "moderate"
+    },
+    {
+      "name": "GERD (Gastroesophageal Reflux Disease)",
+      "category": "Gastrointestinal",
+      "common_symptoms": [
+        { "name": "heartburn", "aliases": ["acid reflux", "chest burning"] },
+        { "name": "regurgitation", "aliases": ["food coming back up"] }
+      ],
+      "specific_symptoms": [
+        { "name": "chest pain", "aliases": ["non-cardiac chest pain"] },
+        { "name": "difficulty swallowing", "aliases": ["food feels stuck"] },
+        { "name": "chronic cough", "aliases": ["persistent cough"] }
+      ],
+      "risk_factors": ["obesity", "smoking", "pregnancy", "hiatal hernia", "certain foods"],
+      "specialist": "Gastroenterologist",
+      "recommendation": "Lifestyle changes, dietary modification, and over-the-counter or prescription medications can help. Consult a doctor.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Hepatitis B",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "fever", "aliases": ["temperature"] },
+        { "name": "fatigue", "aliases": ["tired"] },
+        { "name": "nausea", "aliases": ["feeling sick"] },
+        { "name": "vomiting", "aliases": ["throwing up"] }
+      ],
+      "specific_symptoms": [
+        { "name": "abdominal pain", "aliases": ["belly pain"] },
+        { "name": "jaundice (yellowing of skin and eyes)", "aliases": ["yellow skin"] },
+        { "name": "dark urine", "aliases": ["dark pee"] }
+      ],
+      "risk_factors": ["unprotected sex", "sharing needles", "mother to child at birth"],
+      "specialist": "Hepatologist",
+      "recommendation": "A serious liver infection. A vaccine is available for prevention. Consult a doctor for diagnosis and treatment.",
+      "severity": "serious"
+    },
+    {
+      "name": "HIV/AIDS",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "fever", "aliases": ["temperature"] },
+        { "name": "fatigue", "aliases": ["tired"] },
+        { "name": "swollen lymph nodes", "aliases": ["swollen glands"] }
+      ],
+      "specific_symptoms": [
+        { "name": "rapid weight loss", "aliases": ["losing weight fast"] },
+        { "name": "recurring fever or night sweats", "aliases": ["night sweats"] },
+        { "name": "opportunistic infections", "aliases": ["getting sick easily"] }
+      ],
+      "risk_factors": ["unprotected sex", "sharing needles"],
+      "specialist": "Infectious Disease Specialist",
+      "recommendation": "Requires lifelong antiretroviral therapy (ART). Early diagnosis and treatment are crucial. Seek testing and care from a healthcare provider.",
+      "severity": "critical"
+    },
+    {
+      "name": "Malaria",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "fever", "aliases": ["high fever"] },
+        { "name": "chills", "aliases": ["shivering"] },
+        { "name": "headache", "aliases": ["bad headache"] },
+        { "name": "fatigue", "aliases": ["exhaustion"] }
+      ],
+      "specific_symptoms": [
+        { "name": "sweating", "aliases": ["profuse sweating"] },
+        { "name": "muscle pain", "aliases": ["sore muscles"] },
+        { "name": "cycles of chills, fever, and sweating", "aliases": ["fever comes and goes"] }
+      ],
+      "risk_factors": ["travel to endemic areas", "mosquito bites"],
+      "specialist": "Infectious Disease Specialist",
+      "recommendation": "A mosquito-borne infectious disease. Requires prompt diagnosis and treatment with antimalarial drugs. Consult a doctor, especially after travel to endemic areas.",
+      "severity": "serious"
+    },
+    {
+      "name": "Dengue Fever",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "fever", "aliases": ["high fever"] },
+        { "name": "headache", "aliases": ["severe headache"] },
+        { "name": "fatigue", "aliases": ["tired"] },
+        { "name": "rash", "aliases": ["skin rash"] }
+      ],
+      "specific_symptoms": [
+        { "name": "severe joint and muscle pain", "aliases": ["breakbone fever"] },
+        { "name": "mild bleeding (nose or gums)", "aliases": ["bleeding gums"] }
+      ],
+      "risk_factors": ["travel to tropical areas", "mosquito bites"],
+      "specialist": "Infectious Disease Specialist",
+      "recommendation": "A mosquito-borne viral infection. Rest and fluid intake are important. Seek medical care for monitoring, as severe dengue can be life-threatening.",
+      "severity": "severe"
+    },
+    {
+      "name": "Zika Virus",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "fever", "aliases": ["mild fever"] },
+        { "name": "rash", "aliases": ["skin rash"] },
+        { "name": "joint pain", "aliases": ["sore joints"] },
+        { "name": "headache", "aliases": ["head pain"] }
+      ],
+      "specific_symptoms": [
+        { "name": "conjunctivitis (red eyes)", "aliases": ["red eyes"] }
+      ],
+      "risk_factors": ["travel to affected areas", "mosquito bites"],
+      "specialist": "General Practitioner",
+      "recommendation": "Usually mild, but can cause birth defects if contracted during pregnancy. Rest and fluids are recommended. Consult a doctor.",
+      "severity": "mild"
+    },
+    {
+      "name": "Chickenpox",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "fever", "aliases": ["temperature"] },
+        { "name": "fatigue", "aliases": ["tired"] },
+        { "name": "loss of appetite", "aliases": ["not hungry"] },
+        { "name": "rash", "aliases": ["spots"] }
+      ],
+      "specific_symptoms": [
+        { "name": "itchy blister-like rash", "aliases": ["itchy spots"] },
+        { "name": "rash appearing in successive waves", "aliases": ["new spots appearing"] }
+      ],
+      "risk_factors": ["unvaccinated", "contact with infected person"],
+      "specialist": "Pediatrician",
+      "recommendation": "Highly contagious. Vaccination is key for prevention. Treatment is supportive. Keep the patient isolated and consult a doctor.",
+      "severity": "moderate"
+    },
+    {
+      "name": "Shingles",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "pain", "aliases": ["sharp pain"] },
+        { "name": "burning", "aliases": ["burning sensation"] },
+        { "name": "numbness or tingling", "aliases": ["pins and needles"] },
+        { "name": "rash", "aliases": ["blisters"] }
+      ],
+      "specific_symptoms": [
+        { "name": "painful rash that appears as a single stripe of blisters", "aliases": ["blister rash on one side"] },
+        { "name": "sensitivity to touch", "aliases": ["skin is sensitive"] }
+      ],
+      "risk_factors": ["had chickenpox", "age over 50", "weakened immune system", "stress"],
+      "specialist": "General Practitioner",
+      "recommendation": "Caused by the same virus as chickenpox. Early treatment with antiviral medication is important. A vaccine is available for older adults. Consult a doctor.",
+      "severity": "moderate"
+    },
+    {
+      "name": "Mononucleosis (Mono)",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "fatigue", "aliases": ["extreme fatigue"] },
+        { "name": "fever", "aliases": ["temperature"] },
+        { "name": "sore throat", "aliases": ["bad sore throat"] },
+        { "name": "headache", "aliases": ["head pain"] }
+      ],
+      "specific_symptoms": [
+        { "name": "swollen lymph nodes in neck and armpits", "aliases": ["swollen glands"] },
+        { "name": "swollen spleen", "aliases": ["enlarged spleen"] }
+      ],
+      "risk_factors": ["age (teens and young adults)", "sharing drinks or utensils"],
+      "specialist": "General Practitioner",
+      "recommendation": "Known as 'the kissing disease'. Rest is the primary treatment. Avoid contact sports due to risk of spleen rupture. Consult a doctor.",
+      "severity": "moderate"
+    },
+    {
+      "name": "Strep Throat",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "sore throat", "aliases": ["very sore throat"] },
+        { "name": "fever", "aliases": ["high fever"] }
+      ],
+      "specific_symptoms": [
+        { "name": "pain when swallowing", "aliases": ["hurts to swallow"] },
+        { "name": "swollen tonsils with white patches", "aliases": ["white spots on tonsils"] },
+        { "name": "tiny red spots on the roof of the mouth", "aliases": ["red spots in mouth"] }
+      ],
+      "risk_factors": ["close contact with infected person", "school-age children"],
+      "specialist": "General Practitioner",
+      "recommendation": "A bacterial infection that requires antibiotics. See a doctor for a rapid strep test and diagnosis.",
+      "severity": "mild"
+    },
+    {
+      "name": "Bronchitis",
+      "category": "Respiratory",
+      "common_symptoms": [
+        { "name": "cough", "aliases": ["hacking cough"] },
+        { "name": "fatigue", "aliases": ["tired"] },
+        { "name": "mild fever", "aliases": ["low fever"] }
+      ],
+      "specific_symptoms": [
+        { "name": "mucus production (sputum)", "aliases": ["coughing up phlegm"] },
+        { "name": "chest discomfort", "aliases": ["sore chest"] },
+        { "name": "shortness of breath", "aliases": ["breathless"] }
+      ],
+      "risk_factors": ["smoking", "recent cold or flu", "exposure to irritants"],
+      "specialist": "General Practitioner",
+      "recommendation": "Usually caused by a virus. Rest, fluids, and a humidifier can help. Antibiotics are not typically needed. Consult a doctor if cough persists.",
+      "severity": "mild"
+    },
+    {
+      "name": "Sinusitis",
+      "category": "Respiratory",
+      "common_symptoms": [
+        { "name": "nasal congestion", "aliases": ["stuffy nose"] },
+        { "name": "headache", "aliases": ["sinus headache"] }
+      ],
+      "specific_symptoms": [
+        { "name": "pain, tenderness and swelling around eyes, cheeks, nose or forehead", "aliases": ["face hurts"] },
+        { "name": "thick, discolored nasal discharge", "aliases": ["yellow or green snot"] }
+      ],
+      "risk_factors": ["common cold", "allergies", "nasal polyps", "deviated septum"],
+      "specialist": "Otolaryngologist",
+      "recommendation": "Nasal sprays, decongestants, and pain relievers can help. Consult a doctor if symptoms are severe or persist.",
+      "severity": "mild"
+    },
+    {
+      "name": "Otitis Media (Ear Infection)",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "ear pain", "aliases": ["earache"] },
+        { "name": "fever", "aliases": ["temperature"] }
+      ],
+      "specific_symptoms": [
+        { "name": "trouble hearing", "aliases": ["muffled hearing"] },
+        { "name": "fluid drainage from the ear", "aliases": ["leaking ear"] },
+        { "name": "loss of balance", "aliases": ["dizzy"] }
+      ],
+      "risk_factors": ["age (young children)", "recent cold", "daycare attendance", "bottle feeding while lying down"],
+      "specialist": "Pediatrician",
+      "recommendation": "Common in children. A doctor may prescribe antibiotics or recommend observation. Pain medication can help.",
+      "severity": "mild"
+    },
+    {
+      "name": "Conjunctivitis (Pink Eye)",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "eye redness", "aliases": ["red eye"] },
+        { "name": "itchiness", "aliases": ["itchy eye"] }
+      ],
+      "specific_symptoms": [
+        { "name": "gritty feeling in one or both eyes", "aliases": ["sandy feeling in eye"] },
+        { "name": "discharge that forms a crust", "aliases": ["crusty eye"] },
+        { "name": "tearing", "aliases": ["watery eye"] }
+      ],
+      "risk_factors": ["contact with infected person", "allergies", "contact lens use"],
+      "specialist": "Ophthalmologist",
+      "recommendation": "Can be viral, bacterial, or allergic. Good hygiene is important. See a doctor for diagnosis and appropriate treatment (e.g., antibiotic eye drops).",
+      "severity": "mild"
+    },
+    {
+      "name": "Lyme Disease",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "fever", "aliases": ["temperature"] },
+        { "name": "chills", "aliases": ["shivering"] },
+        { "name": "fatigue", "aliases": ["tired"] },
+        { "name": "body aches", "aliases": ["muscle pain"] }
+      ],
+      "specific_symptoms": [
+        { "name": "bull's-eye pattern rash (Erythema migrans)", "aliases": ["bullseye rash"] },
+        { "name": "joint pain", "aliases": ["sore joints"] },
+        { "name": "neurological problems", "aliases": ["Bell's palsy"] }
+      ],
+      "risk_factors": ["tick bite", "outdoor activities in wooded areas"],
+      "specialist": "Infectious Disease Specialist",
+      "recommendation": "A tick-borne illness. Early antibiotic treatment is key. Consult a doctor if you have been bitten by a tick or have symptoms.",
+      "severity": "serious"
+    },
+    {
+      "name": "West Nile Virus",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "fever", "aliases": ["temperature"] },
+        { "name": "headache", "aliases": ["head pain"] },
+        { "name": "body aches", "aliases": ["muscle aches"] },
+        { "name": "fatigue", "aliases": ["tired"] },
+        { "name": "rash", "aliases": ["skin rash"] }
+      ],
+      "specific_symptoms": [
+        { "name": "swollen lymph glands", "aliases": ["swollen glands"] },
+        { "name": "stiff neck (in severe cases)", "aliases": ["sore neck"] }
+      ],
+      "risk_factors": ["mosquito bite", "outdoor activities", "age over 60"],
+      "specialist": "Infectious Disease Specialist",
+      "recommendation": "A mosquito-borne virus. Most people have no symptoms. Treatment is supportive. Seek medical care for severe symptoms like high fever or confusion.",
+      "severity": "variable"
+    },
+    {
+      "name": "Food Poisoning",
+      "category": "Gastrointestinal",
+      "common_symptoms": [
+        { "name": "nausea", "aliases": ["feeling sick"] },
+        { "name": "vomiting", "aliases": ["throwing up"] },
+        { "name": "diarrhea", "aliases": ["loose stools"] },
+        { "name": "abdominal cramps", "aliases": ["stomach cramps"] },
+        { "name": "fever", "aliases": ["temperature"] }
+      ],
+      "specific_symptoms": [],
+      "risk_factors": ["eating contaminated food", "improperly cooked food", "eating raw seafood"],
+      "specialist": "General Practitioner",
+      "recommendation": "Usually resolves on its own. The main goal is to prevent dehydration by drinking fluids. Seek medical care if symptoms are severe or persistent.",
+      "severity": "mild"
+    },
+    {
+      "name": "Constipation",
+      "category": "Gastrointestinal",
+      "common_symptoms": [
+        { "name": "difficulty passing stool", "aliases": ["trouble pooping"] },
+        { "name": "infrequent bowel movements", "aliases": ["not pooping enough"] },
+        { "name": "abdominal bloating", "aliases": ["bloated stomach"] }
+      ],
+      "specific_symptoms": [
+        { "name": "straining during bowel movements", "aliases": ["straining to poop"] },
+        { "name": "hard or lumpy stools", "aliases": ["hard poop"] }
+      ],
+      "risk_factors": ["low-fiber diet", "dehydration", "lack of exercise", "certain medications"],
+      "specialist": "Gastroenterologist",
+      "recommendation": "Increase fiber and fluid intake. Regular exercise can help. Over-the-counter laxatives may be used short-term. Consult a doctor for chronic issues.",
+      "severity": "mild"
+    },
+    {
+      "name": "Hemorrhoids",
+      "category": "Gastrointestinal",
+      "common_symptoms": [
+        { "name": "anal itching", "aliases": ["itchy bottom"] },
+        { "name": "pain or discomfort", "aliases": ["sore bottom"] }
+      ],
+      "specific_symptoms": [
+        { "name": "painless bleeding during bowel movements", "aliases": ["blood on toilet paper"] },
+        { "name": "swelling around your anus", "aliases": ["swollen anus"] },
+        { "name": "a lump near your anus", "aliases": ["lump on bottom"] }
+      ],
+      "risk_factors": ["straining during bowel movements", "chronic constipation", "pregnancy", "obesity", "prolonged sitting"],
+      "specialist": "Proctologist",
+      "recommendation": "High-fiber diet, fluids, and over-the-counter creams can help. Consult a doctor for persistent or painful hemorrhoids.",
+      "severity": "mild"
+    },
+    {
+      "name": "Scabies",
+      "category": "Dermatologic",
+      "common_symptoms": [
+        { "name": "intense itching", "aliases": ["very itchy", "itchy"] },
+        { "name": "rash", "aliases": ["skin rash"] }
+      ],
+      "specific_symptoms": [
+        { "name": "itching that is worse at night", "aliases": ["itchy at night"] },
+        { "name": "pimple-like rash", "aliases": ["bumpy rash"] },
+        { "name": "burrow tracks on the skin", "aliases": ["lines on skin"] }
+      ],
+      "risk_factors": ["close physical contact", "crowded conditions", "sharing bedding"],
+      "specialist": "Dermatologist",
+      "recommendation": "Caused by tiny mites. Requires prescription medication to treat. Wash all bedding and clothing. Consult a doctor.",
+      "severity": "moderate"
+    },
+    {
+      "name": "Ringworm",
+      "category": "Dermatologic",
+      "common_symptoms": [
+        { "name": "itchy skin", "aliases": ["itching", "itchy"] },
+        { "name": "rash", "aliases": ["skin rash"] }
+      ],
+      "specific_symptoms": [
+        { "name": "ring-shaped rash", "aliases": ["circular rash"] },
+        { "name": "red, scaly, cracked skin", "aliases": ["scaly skin"] }
+      ],
+      "risk_factors": ["contact with infected person or animal", "damp environments", "public showers"],
+      "specialist": "Dermatologist",
+      "recommendation": "A fungal infection. Over-the-counter antifungal creams are usually effective. Consult a doctor if it doesn't improve.",
+      "severity": "mild"
+    },
+    {
+      "name": "Athlete's Foot",
+      "category": "Dermatologic",
+      "common_symptoms": [
+        { "name": "itchy skin", "aliases": ["itchy feet", "itchy"] }
+      ],
+      "specific_symptoms": [
+        { "name": "scaly rash that causes itching, stinging, and burning between the toes", "aliases": ["itchy toes"] }
+      ],
+      "risk_factors": ["sweaty feet", "public showers", "tight shoes"],
+      "specialist": "Dermatologist",
+      "recommendation": "A fungal infection. Keep feet clean and dry. Use over-the-counter antifungal powders or creams. Consult a doctor if severe.",
+      "severity": "mild"
+    },
+    {
+      "name": "Impetigo",
+      "category": "Dermatologic",
+      "common_symptoms": [
+        { "name": "red sores", "aliases": ["sores"] },
+        { "name": "rash", "aliases": ["skin rash"] },
+        { "name": "itchy skin", "aliases": ["itchy"] }
+      ],
+      "specific_symptoms": [
+        { "name": "red sores that quickly rupture, ooze for a few days and then form a yellowish-brown crust", "aliases": ["crusty sores"] }
+      ],
+      "risk_factors": ["age (children 2-5)", "crowded conditions", "contact sports", "skin breaks"],
+      "specialist": "Pediatrician",
+      "recommendation": "A highly contagious bacterial skin infection, common in children. Requires prescription antibiotic ointment or pills. See a doctor.",
+      "severity": "moderate"
+    },
+    {
+      "name": "Cellulitis",
+      "category": "Dermatologic",
+      "common_symptoms": [
+        { "name": "redness", "aliases": ["red skin"] },
+        { "name": "swelling", "aliases": ["swollen skin"] },
+        { "name": "pain", "aliases": ["sore skin"] },
+        { "name": "rash", "aliases": ["red area"] }
+      ],
+      "specific_symptoms": [
+        { "name": "red, swollen skin that feels hot and tender to the touch", "aliases": ["hot skin"] },
+        { "name": "fever", "aliases": ["temperature"] },
+        { "name": "spreading redness", "aliases": ["redness is spreading"] }
+      ],
+      "risk_factors": ["skin injury", "weakened immune system", "obesity", "lymphedema"],
+      "specialist": "General Practitioner",
+      "recommendation": "A potentially serious bacterial skin infection. Requires prompt treatment with antibiotics. Consult a doctor immediately.",
+      "severity": "serious"
+    },
+    {
+      "name": "Acne",
+      "category": "Dermatologic",
+      "common_symptoms": [
+        { "name": "pimples", "aliases": ["spots", "zits"] },
+        { "name": "blackheads", "aliases": ["black heads"] },
+        { "name": "whiteheads", "aliases": ["white heads"] }
+      ],
+      "specific_symptoms": [
+        { "name": "oily skin", "aliases": ["greasy skin"] },
+        { "name": "scarring", "aliases": ["acne scars"] },
+        { "name": "painful, pus-filled lumps (cysts)", "aliases": ["cystic acne"] }
+      ],
+      "risk_factors": ["hormonal changes", "genetics", "certain medications", "stress", "diet"],
+      "specialist": "Dermatologist",
+      "recommendation": "Good skin hygiene and over-the-counter products can help. A dermatologist can provide more effective treatments for persistent acne.",
+      "severity": "mild"
+    },
+    {
+      "name": "Rosacea",
+      "category": "Dermatologic",
+      "common_symptoms": [
+        { "name": "facial redness", "aliases": ["red face"] },
+        { "name": "flushing", "aliases": ["blushing easily"] },
+        { "name": "rash", "aliases": ["red patches"] }
+      ],
+      "specific_symptoms": [
+        { "name": "visible blood vessels", "aliases": ["spider veins on face"] },
+        { "name": "red, pus-filled bumps", "aliases": ["pustules"] },
+        { "name": "thickening skin on the nose", "aliases": ["bumpy nose"] }
+      ],
+      "risk_factors": ["fair skin", "family history", "female sex", "age over 30"],
+      "specialist": "Dermatologist",
+      "recommendation": "A chronic skin condition. Identifying and avoiding triggers is key. A dermatologist can prescribe treatments to manage symptoms.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Melanoma",
+      "category": "Oncology",
+      "common_symptoms": [
+        { "name": "new mole", "aliases": ["new skin spot"] },
+        { "name": "changing mole", "aliases": ["mole has changed"] },
+        { "name": "rash", "aliases": ["skin rash"] },
+        { "name": "itchy skin", "aliases": ["itching mole", "itchy spot", "itchy"] },
+        { "name": "skin lesion", "aliases": ["sore that won't heal"] }
+      ],
+      "specific_symptoms": [
+        { "name": "asymmetrical mole shape", "aliases": ["uneven mole"] },
+        { "name": "irregular border", "aliases": ["jagged mole border"] },
+        { "name": "changes in color", "aliases": ["mole with multiple colors"] },
+        { "name": "diameter larger than a pencil eraser", "aliases": ["large mole"] }
+      ],
+      "risk_factors": ["uv radiation", "sun exposure", "radiation exposure", "fair skin", "history of sunburns", "many moles", "family history of skin cancer", "radiologist"],
+      "specialist": "Dermatologist",
+      "recommendation": "The most serious type of skin cancer. Early detection is critical. Perform regular skin checks and see a dermatologist for any suspicious moles.",
+      "severity": "critical"
+    },
+    {
+      "name": "Basal Cell Carcinoma",
+      "category": "Oncology",
+      "common_symptoms": [
+        { "name": "skin lesion", "aliases": ["sore that won't heal"] },
+        { "name": "rash", "aliases": ["persistent rash", "itchy rash"] }
+      ],
+      "specific_symptoms": [
+        { "name": "pearly or waxy bump", "aliases": ["shiny bump"] },
+        { "name": "flat, flesh-colored or brown scar-like lesion", "aliases": ["scar-like spot"] }
+      ],
+      "risk_factors": ["sun exposure", "radiation exposure", "fair skin", "age", "radiologist"],
+      "specialist": "Dermatologist",
+      "recommendation": "A common, slow-growing skin cancer. Usually not life-threatening but needs treatment. Consult a dermatologist.",
+      "severity": "serious"
+    },
+    {
+      "name": "Squamous Cell Carcinoma",
+      "category": "Oncology",
+      "common_symptoms": [
+        { "name": "skin lesion", "aliases": ["rough skin patch"] },
+        { "name": "rash", "aliases": ["scaly rash", "itchy rash"] }
+      ],
+      "specific_symptoms": [
+        { "name": "firm, red nodule", "aliases": ["red lump"] },
+        { "name": "flat lesion with a scaly, crusted surface", "aliases": ["crusty spot"] }
+      ],
+      "risk_factors": ["sun exposure", "radiation exposure", "fair skin", "weakened immune system", "radiologist"],
+      "specialist": "Dermatologist",
+      "recommendation": "A common type of skin cancer. Needs treatment. Consult a dermatologist.",
+      "severity": "serious"
+    },
+    {
+      "name": "Lung Cancer",
+      "category": "Oncology",
+      "common_symptoms": [
+        { "name": "chronic cough", "aliases": ["persistent cough"] },
+        { "name": "shortness of breath", "aliases": ["breathless"] },
+        { "name": "fatigue", "aliases": ["tired"] },
+        { "name": "chest pain", "aliases": ["chest ache"] }
+      ],
+      "specific_symptoms": [
+        { "name": "coughing up blood", "aliases": ["hemoptysis"] },
+        { "name": "unexplained weight loss", "aliases": ["losing weight"] },
+        { "name": "hoarseness", "aliases": ["raspy voice"] }
+      ],
+      "risk_factors": ["smoking", "secondhand smoke", "exposure to radon", "asbestos exposure", "family history"],
+      "specialist": "Oncologist",
+      "recommendation": "A leading cause of cancer deaths. Quitting smoking is the best prevention. Consult a doctor for any persistent respiratory symptoms.",
+      "severity": "critical"
+    },
+    {
+      "name": "Breast Cancer",
+      "category": "Oncology",
+      "common_symptoms": [
+        { "name": "breast lump", "aliases": ["lump in breast"] },
+        { "name": "breast pain", "aliases": ["sore breast"] }
+      ],
+      "specific_symptoms": [
+        { "name": "change in the size, shape or appearance of a breast", "aliases": ["breast looks different"] },
+        { "name": "dimpling of the skin", "aliases": ["orange peel skin on breast"] },
+        { "name": "inverted nipple", "aliases": ["nipple turned inward"] }
+      ],
+      "risk_factors": ["female sex", "age", "family history", "genetics (BRCA1, BRCA2)", "obesity", "alcohol consumption"],
+      "specialist": "Oncologist",
+      "recommendation": "Early detection through self-exams and mammograms is key. Consult a doctor for any breast changes.",
+      "severity": "critical"
+    },
+    {
+      "name": "Colorectal Cancer",
+      "category": "Oncology",
+      "common_symptoms": [
+        { "name": "changes in bowel habits", "aliases": ["different poop schedule"] },
+        { "name": "fatigue", "aliases": ["tired"] },
+        { "name": "abdominal pain", "aliases": ["stomach cramps"] }
+      ],
+      "specific_symptoms": [
+        { "name": "blood in stool", "aliases": ["rectal bleeding"] },
+        { "name": "persistent abdominal discomfort", "aliases": ["cramps", "gas", "pain"] },
+        { "name": "unexplained weight loss", "aliases": ["losing weight"] }
+      ],
+      "risk_factors": ["age over 50", "family history", "inflammatory bowel disease", "low-fiber, high-fat diet", "smoking"],
+      "specialist": "Gastroenterologist",
+      "recommendation": "Regular screenings, like colonoscopies, are vital for early detection. Consult a doctor about your screening schedule.",
+      "severity": "critical"
+    },
+    {
+      "name": "Prostate Cancer",
+      "category": "Oncology",
+      "common_symptoms": [
+        { "name": "frequent urination", "aliases": ["peeing a lot"] },
+        { "name": "weak urine stream", "aliases": ["slow pee stream"] }
+      ],
+      "specific_symptoms": [
+        { "name": "trouble urinating", "aliases": ["difficulty peeing"] },
+        { "name": "blood in semen", "aliases": ["blood in sperm"] },
+        { "name": "erectile dysfunction", "aliases": ["trouble getting an erection"] }
+      ],
+      "risk_factors": ["age", "family history", "obesity", "race (higher in African-American men)"],
+      "specialist": "Urologist",
+      "recommendation": "Often slow-growing. Consult a doctor about the pros and cons of screening (e.g., PSA test).",
+      "severity": "serious"
+    },
+    {
+      "name": "Leukemia",
+      "category": "Oncology",
+      "common_symptoms": [
+        { "name": "fever", "aliases": ["temperature"] },
+        { "name": "fatigue", "aliases": ["persistent weakness"] },
+        { "name": "frequent infections", "aliases": ["getting sick often"] },
+        { "name": "easy bruising or bleeding", "aliases": ["bruise easily"] }
+      ],
+      "specific_symptoms": [
+        { "name": "swollen lymph nodes", "aliases": ["swollen glands"] },
+        { "name": "unexplained weight loss", "aliases": ["losing weight"] }
+      ],
+      "risk_factors": ["family history", "genetic disorders", "previous cancer treatment", "radiation exposure", "smoking"],
+      "specialist": "Hematologist-Oncologist",
+      "recommendation": "Cancer of the blood-forming tissues. Requires specialist care. Consult a hematologist-oncologist.",
+      "severity": "critical"
+    },
+    {
+      "name": "Lymphoma",
+      "category": "Oncology",
+      "common_symptoms": [
+        { "name": "swollen lymph nodes", "aliases": ["swollen glands"] },
+        { "name": "fever", "aliases": ["temperature"] },
+        { "name": "fatigue", "aliases": ["tired"] },
+        { "name": "night sweats", "aliases": ["drenching night sweats"] }
+      ],
+      "specific_symptoms": [
+        { "name": "painless swelling of lymph nodes in neck, armpits or groin", "aliases": ["lump in neck"] },
+        { "name": "unexplained weight loss", "aliases": ["losing weight"] }
+      ],
+      "risk_factors": ["age", "weakened immune system", "certain infections"],
+      "specialist": "Hematologist-Oncologist",
+      "recommendation": "Cancer of the lymphatic system. Consult a hematologist-oncologist for diagnosis and treatment.",
+      "severity": "critical"
+    },
+    {
+      "name": "Sleep Apnea",
+      "category": "Respiratory",
+      "common_symptoms": [
+        { "name": "loud snoring", "aliases": ["snoring loudly"] },
+        { "name": "daytime sleepiness", "aliases": ["sleepy during the day"] },
+        { "name": "fatigue", "aliases": ["tired"] }
+      ],
+      "specific_symptoms": [
+        { "name": "episodes in which you stop breathing during sleep", "aliases": ["stop breathing at night"] },
+        { "name": "abrupt awakenings accompanied by shortness of breath", "aliases": ["waking up gasping"] }
+      ],
+      "risk_factors": ["obesity", "male sex", "age", "large neck circumference", "smoking", "alcohol use"],
+      "specialist": "Sleep Medicine Specialist",
+      "recommendation": "A potentially serious sleep disorder. A sleep study may be needed for diagnosis. Consult a doctor.",
+      "severity": "moderate"
+    },
+    {
+      "name": "Insomnia",
+      "category": "Sleep Disorder",
+      "common_symptoms": [
+        { "name": "difficulty falling asleep", "aliases": ["can't fall asleep"] },
+        { "name": "difficulty staying asleep", "aliases": ["wake up a lot"] },
+        { "name": "daytime fatigue", "aliases": ["tired during the day"] }
+      ],
+      "specific_symptoms": [
+        { "name": "waking up too early", "aliases": ["waking up early"] },
+        { "name": "not feeling well-rested after a night's sleep", "aliases": ["tired after sleeping"] }
+      ],
+      "risk_factors": ["stress", "anxiety", "depression", "poor sleep habits", "caffeine", "certain medications"],
+      "specialist": "Sleep Medicine Specialist",
+      "recommendation": "Practice good sleep hygiene. Cognitive behavioral therapy for insomnia (CBT-I) is effective. Consult a doctor for persistent issues.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Restless Legs Syndrome",
+      "category": "Neurological",
+      "common_symptoms": [
+        { "name": "unpleasant sensations in legs", "aliases": ["creepy-crawly feeling in legs"] },
+        { "name": "urge to move legs", "aliases": ["have to move legs"] }
+      ],
+      "specific_symptoms": [
+        { "name": "an irresistible urge to move your legs, particularly at night", "aliases": ["have to move legs at night"] },
+        { "name": "symptoms worsen during periods of rest", "aliases": ["worse when sitting"] }
+      ],
+      "risk_factors": ["family history", "iron deficiency", "pregnancy", "kidney failure"],
+      "specialist": "Neurologist",
+      "recommendation": "Lifestyle changes and medication can help manage symptoms. Consult a doctor for diagnosis.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Fibromyalgia",
+      "category": "Musculoskeletal",
+      "common_symptoms": [
+        { "name": "widespread pain", "aliases": ["pain all over"] },
+        { "name": "fatigue", "aliases": ["tired"] },
+        { "name": "sleep disturbances", "aliases": ["can't sleep well"] }
+      ],
+      "specific_symptoms": [
+        { "name": "cognitive difficulties (fibro fog)", "aliases": ["brain fog"] },
+        { "name": "tenderness to touch in specific areas", "aliases": ["tender points"] }
+      ],
+      "risk_factors": ["female sex", "family history", "rheumatic disease", "traumatic events"],
+      "specialist": "Rheumatologist",
+      "recommendation": "A complex chronic pain disorder. Management involves medication, exercise, and stress management. Consult a doctor.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Chronic Fatigue Syndrome",
+      "category": "Neurological",
+      "common_symptoms": [
+        { "name": "extreme fatigue", "aliases": ["severe exhaustion"] },
+        { "name": "sleep that isn't refreshing", "aliases": ["unrefreshing sleep"] }
+      ],
+      "specific_symptoms": [
+        { "name": "post-exertional malaise (symptoms worsen after physical or mental effort)", "aliases": ["crash after activity"] },
+        { "name": "problems with memory or concentration", "aliases": ["brain fog"] }
+      ],
+      "risk_factors": ["viral infections", "immune system problems", "stress"],
+      "specialist": "General Practitioner",
+      "recommendation": "A complex disorder with no single treatment. Management focuses on symptom relief. Consult a doctor.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Carpal Tunnel Syndrome",
+      "category": "Neurological",
+      "common_symptoms": [
+        { "name": "numbness", "aliases": ["hand is numb"] },
+        { "name": "tingling", "aliases": ["pins and needles in hand"] },
+        { "name": "weakness in the hand", "aliases": ["weak grip"] }
+      ],
+      "specific_symptoms": [
+        { "name": "numbness or tingling in the hand and arm, particularly the thumb and index, middle or ring fingers", "aliases": ["numb thumb"] }
+      ],
+      "risk_factors": ["repetitive hand motions", "pregnancy", "obesity", "rheumatoid arthritis", "typist", "computer user"],
+      "specialist": "Orthopedist",
+      "recommendation": "Caused by a pinched nerve in the wrist. Wrist splinting and activity modification can help. Consult a doctor.",
+      "severity": "moderate"
+    },
+    {
+      "name": "Plantar Fasciitis",
+      "category": "Musculoskeletal",
+      "common_symptoms": [
+        { "name": "heel pain", "aliases": ["sore heel"] }
+      ],
+      "specific_symptoms": [
+        { "name": "stabbing pain in the bottom of your foot near the heel", "aliases": ["sharp heel pain"] },
+        { "name": "pain that is usually worst with the first steps in the morning", "aliases": ["morning heel pain"] }
+      ],
+      "risk_factors": ["obesity", "age", "long-distance running", "jobs that keep you on your feet", "runner"],
+      "specialist": "Podiatrist",
+      "recommendation": "Stretching exercises, supportive shoes, and rest can help. Consult a doctor or physical therapist.",
+      "severity": "mild"
+    },
+    {
+      "name": "Tinnitus",
+      "category": "Otolaryngologic",
+      "common_symptoms": [
+        { "name": "ringing in ears", "aliases": ["buzzing in ears"] }
+      ],
+      "specific_symptoms": [
+        { "name": "perception of noise or ringing in the ears when no external sound is present", "aliases": ["hearing sounds that aren't there"] }
+      ],
+      "risk_factors": ["age-related hearing loss", "exposure to loud noise", "earwax blockage", "musician"],
+      "specialist": "Audiologist",
+      "recommendation": "Often a symptom of an underlying condition. Management can include sound therapy and addressing the root cause. Consult a doctor or audiologist.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Vertigo",
+      "category": "Neurological",
+      "common_symptoms": [
+        { "name": "dizziness", "aliases": ["feeling dizzy"] },
+        { "name": "spinning sensation", "aliases": ["room is spinning"] },
+        { "name": "loss of balance", "aliases": ["unbalanced"] }
+      ],
+      "specific_symptoms": [
+        { "name": "a sense that you or your surroundings are spinning or moving", "aliases": ["world is spinning"] }
+      ],
+      "risk_factors": ["head injury", "migraines", "inner ear problems"],
+      "specialist": "Otolaryngologist",
+      "recommendation": "Can have various causes. Certain physical maneuvers can help some types. Consult a doctor for diagnosis.",
+      "severity": "moderate"
+    },
+    {
+      "name": "Meniere's Disease",
+      "category": "Otolaryngologic",
+      "common_symptoms": [
+        { "name": "vertigo", "aliases": ["spinning"] },
+        { "name": "tinnitus", "aliases": ["ringing ears"] },
+        { "name": "hearing loss", "aliases": ["can't hear well"] }
+      ],
+      "specific_symptoms": [
+        { "name": "recurring episodes of vertigo", "aliases": ["dizzy spells"] },
+        { "name": "fluctuating hearing loss", "aliases": ["hearing comes and goes"] },
+        { "name": "a feeling of fullness in the ear", "aliases": ["ear feels full"] }
+      ],
+      "risk_factors": ["family history", "abnormal immune response", "viral infection"],
+      "specialist": "Otolaryngologist",
+      "recommendation": "A disorder of the inner ear. Management involves medication and dietary changes. Consult a specialist (ENT).",
+      "severity": "chronic"
+    },
+    {
+      "name": "Cataracts",
+      "category": "Ophthalmologic",
+      "common_symptoms": [
+        { "name": "blurry vision", "aliases": ["cloudy vision"] },
+        { "name": "difficulty seeing at night", "aliases": ["trouble driving at night"] },
+        { "name": "fading or yellowing of colors", "aliases": ["colors look faded"] }
+      ],
+      "specific_symptoms": [
+        { "name": "clouded, blurred or dim vision", "aliases": ["vision is dim"] },
+        { "name": "halos around lights", "aliases": ["seeing halos"] }
+      ],
+      "risk_factors": ["age", "diabetes", "smoking", "prolonged sun exposure"],
+      "specialist": "Ophthalmologist",
+      "recommendation": "Clouding of the lens of the eye. Surgery is a very effective treatment. Consult an ophthalmologist.",
+      "severity": "moderate"
+    },
+    {
+      "name": "Glaucoma",
+      "category": "Ophthalmologic",
+      "common_symptoms": [
+        { "name": "gradual loss of peripheral vision", "aliases": ["losing side vision"] },
+        { "name": "blurry vision", "aliases": ["hazy vision"] }
+      ],
+      "specific_symptoms": [
+        { "name": "patchy blind spots in your side (peripheral) or central vision", "aliases": ["blind spots"] },
+        { "name": "tunnel vision (in advanced stages)", "aliases": ["tunnel vision"] }
+      ],
+      "risk_factors": ["age", "family history", "high eye pressure", "diabetes"],
+      "specialist": "Ophthalmologist",
+      "recommendation": "A group of eye conditions that damage the optic nerve. Often has no early symptoms. Regular eye exams are critical for early detection. Consult an ophthalmologist.",
+      "severity": "serious"
+    },
+    {
+      "name": "Macular Degeneration",
+      "category": "Ophthalmologic",
+      "common_symptoms": [
+        { "name": "blurry vision", "aliases": ["blurry central vision"] },
+        { "name": "distorted vision", "aliases": ["wavy lines"] }
+      ],
+      "specific_symptoms": [
+        { "name": "reduced central vision", "aliases": ["can't see straight ahead"] },
+        { "name": "visual distortions, such as straight lines seeming bent", "aliases": ["straight lines look bent"] }
+      ],
+      "risk_factors": ["age", "smoking", "family history", "obesity"],
+      "specialist": "Ophthalmologist",
+      "recommendation": "A leading cause of vision loss in older adults. Regular eye exams are important. Consult an ophthalmologist.",
+      "severity": "serious"
+    },
+    {
+      "name": "Benign Prostatic Hyperplasia (BPH)",
+      "category": "Urologic",
+      "common_symptoms": [
+        { "name": "frequent urination", "aliases": ["need to pee often"] },
+        { "name": "difficulty starting urination", "aliases": ["trouble starting to pee"] },
+        { "name": "weak urine stream", "aliases": ["slow stream"] }
+      ],
+      "specific_symptoms": [
+        { "name": "inability to completely empty the bladder", "aliases": ["bladder not empty"] },
+        { "name": "increased frequency of urination at night", "aliases": ["peeing a lot at night"] }
+      ],
+      "risk_factors": ["age", "family history", "diabetes", "heart disease"],
+      "specialist": "Urologist",
+      "recommendation": "An age-related enlargement of the prostate gland. Medication or surgery can help. Consult a urologist.",
+      "severity": "moderate"
+    },
+    {
+      "name": "Pelvic Inflammatory Disease (PID)",
+      "category": "Gynecologic",
+      "common_symptoms": [
+        { "name": "pelvic pain", "aliases": ["lower stomach pain"] },
+        { "name": "fever", "aliases": ["temperature"] },
+        { "name": "pain during intercourse", "aliases": ["pain during sex"] }
+      ],
+      "specific_symptoms": [
+        { "name": "pain in your lower abdomen and pelvis", "aliases": ["lower belly pain"] },
+        { "name": "heavy vaginal discharge with an unpleasant odor", "aliases": ["smelly discharge"] }
+      ],
+      "risk_factors": ["sexually transmitted infections (STIs)", "multiple sexual partners", "age under 25"],
+      "specialist": "Gynecologist",
+      "recommendation": "An infection of the female reproductive organs. Requires prompt antibiotic treatment to prevent complications. Consult a doctor.",
+      "severity": "serious"
+    },
+    {
+      "name": "Human Papillomavirus (HPV) Infection",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "genital warts", "aliases": ["warts on genitals"] }
+      ],
+      "specific_symptoms": [
+        { "name": "small, flesh-colored or gray swellings in your genital area", "aliases": ["bumps down there"] }
+      ],
+      "risk_factors": ["multiple sexual partners", "weakened immune system", "unprotected sex"],
+      "specialist": "Gynecologist",
+      "recommendation": "A very common STI. Often has no symptoms but can cause cancer. A vaccine is highly effective for prevention. Consult a doctor about vaccination and screening.",
+      "severity": "variable"
+    },
+    {
+      "name": "Herpes Simplex Virus (HSV)",
+      "category": "Infectious",
+      "common_symptoms": [
+        { "name": "sores", "aliases": ["painful sores"] },
+        { "name": "blisters", "aliases": ["fluid-filled blisters"] },
+        { "name": "tingling or itching before sores appear", "aliases": ["tingling feeling"] }
+      ],
+      "specific_symptoms": [
+        { "name": "painful sores or blisters on the mouth (cold sores) or genitals", "aliases": ["cold sores", "genital herpes"] }
+      ],
+      "risk_factors": ["unprotected sex", "multiple sexual partners"],
+      "specialist": "General Practitioner",
+      "recommendation": "A common viral infection. There is no cure, but antiviral medication can manage outbreaks. Consult a doctor.",
+      "severity": "chronic"
+    },
+    {
+      "name": "Panic Disorder",
+      "category": "Mental Health",
+      "common_symptoms": [
+        { "name": "panic attacks", "aliases": ["anxiety attacks"] },
+        { "name": "anxiety", "aliases": ["feeling anxious"] }
+      ],
+      "specific_symptoms": [
+        { "name": "sudden episodes of intense fear", "aliases": ["overwhelming fear"] },
+        { "name": "pounding heart", "aliases": ["racing heart"] },
+        { "name": "shortness of breath", "aliases": ["can't breathe"] },
+        { "name": "fear of having another attack", "aliases": ["afraid of another attack"] }
+      ],
+      "risk_factors": ["family history", "major stress", "traumatic event"],
+      "specialist": "Psychiatrist",
+      "recommendation": "Therapy (especially CBT) and medication are effective treatments. Consult a mental health professional.",
+      "severity": "serious"
+    },
+    {
+      "name": "Obsessive-Compulsive Disorder (OCD)",
+      "category": "Mental Health",
+      "common_symptoms": [
+        { "name": "obsessions", "aliases": ["unwanted thoughts"] },
+        { "name": "compulsions", "aliases": ["repetitive behaviors"] }
+      ],
+      "specific_symptoms": [
+        { "name": "unwanted, intrusive thoughts (obsessions)", "aliases": ["intrusive thoughts"] },
+        { "name": "repetitive behaviors (compulsions) performed to reduce anxiety", "aliases": ["rituals", "checking things"] }
+      ],
+      "risk_factors": ["family history", "stressful life events", "brain differences"],
+      "specialist": "Psychiatrist",
+      "recommendation": "A type of therapy called Exposure and Response Prevention (ERP) and medication can be effective. Consult a mental health professional.",
+      "severity": "serious"
+    },
+    {
+      "name": "Post-Traumatic Stress Disorder (PTSD)",
+      "category": "Mental Health",
+      "common_symptoms": [
+        { "name": "anxiety", "aliases": ["feeling on edge"] },
+        { "name": "flashbacks", "aliases": ["reliving the event"] },
+        { "name": "nightmares", "aliases": ["bad dreams"] }
+      ],
+      "specific_symptoms": [
+        { "name": "intrusive memories of a traumatic event", "aliases": ["unwanted memories"] },
+        { "name": "avoidance of reminders of the event", "aliases": ["avoiding places or people"] },
+        { "name": "hypervigilance", "aliases": ["always on guard"] }
+      ],
+      "risk_factors": ["experiencing a traumatic event", "lack of social support", "history of mental health issues"],
+      "specialist": "Psychiatrist",
+      "recommendation": "Trauma-focused therapies are very effective. Consult a mental health professional specializing in trauma.",
+      "severity": "serious"
+    }
+  ]
+}
